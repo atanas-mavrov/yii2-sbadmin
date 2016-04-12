@@ -5,6 +5,7 @@
 
 use yii\helpers\Html;
 use simpleprojects\sbadmin\assets\SbAsset;
+use common\widgets\Alert;
 
 SbAsset::register($this);
 ?>
@@ -45,6 +46,7 @@ SbAsset::register($this);
     ?>
     </nav>
     <div id="page-wrapper">
+        <?= Alert::widget() ?>
         <?= $content ?>
     </div>
 </div>

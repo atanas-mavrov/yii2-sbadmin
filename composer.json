@@ -1,13 +1,13 @@
 {
     "name": "simple-projects/yii2-sbadmin",
-    "description": "test",
+    "description": "SB Admin 2 template for Yii2",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "Apache-2.0",
+    "keywords": ["yii2","extension", "sb2", "template"],
+    "license": "GPL2",
     "authors": [
         {
-            "name": "test",
-            "email": "test@test.com"
+            "name": "Atanas Mavrov",
+            "email": "atanas.m@gmail.com"
         }
     ],
     "require": {
